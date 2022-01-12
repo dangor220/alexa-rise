@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alexa Rise</title>
+    <link rel="icon" type="image/x-icon" href="icons/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cinzel+Decorative&family=Inter:wght@400;700&family=Quicksand:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cinzel+Decorative&family=Inter:wght@400;700&family=Merriweather:wght@700&family=Quicksand:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        class="header__logo"
+        src="icons/logo.png"
+        alt="logo"
+        width="50"
+        height="50"
+      />
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__list-item">
+            <a class="header__list-link" href="#skills">Skills</a>
+          </li>
+          <li class="header__list-item">
+            <a class="header__list-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="header__list-item">
+            <a class="header__list-link" href="#video">Video</a>
+          </li>
+          <li class="header__list-item">
+            <a class="header__list-link" href="#price">Price</a>
+          </li>
+          <li class="header__list-item">
+            <a class="header__list-link" href="#contacts">Contacts</a>
+          </li>
+          <li class="header__list-item">
+            <a class="header__list-link header__list-link_bold" href="#">en</a>
+            <span class="header__list-link_bold">/</span>
+            <a class="header__list-link header__list-link_bold" href="#">ru</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero__wrapper">
+          <h1 class="hero__wrapper-header">Alexa Rise</h1>
+          <p class="hero__wrapper-descr">
+            Save sincere emotions, romantic feelings and happy moments of life
+            together with professional photographer Alexa Rise
+          </p>
+          <button class="button button_size">Hire me</button>
+        </div>
+      </section>
+
+      <section class="skills" id="skills">
+        <h2 class="title">Skills</h2>
+        <div class="skills__wrapper">
+          <div class="skills__wrapper-item">
+            <div class="skills__wrapper-image">
+              <img
+                src="icons/skills/camera.png"
+                alt="camera"
+                class="skills__icon"
+              />
+            </div>
+            <p class="skills__subtitle">Digital photography</p>
+            <p class="skills__descr">
+              High-quality photos in the studio and on the nature
+            </p>
+          </div>
+          <div class="skills__wrapper-item">
+            <div class="skills__wrapper-image">
+              <img
+                src="icons/skills/video.png"
+                alt="video"
+                class="skills__icon"
+              />
+            </div>
+            <p class="skills__subtitle">Video shooting</p>
+            <p class="skills__descr">
+              Capture your moments so that they always stay with you
+            </p>
+          </div>
+          <div class="skills__wrapper-item">
+            <div class="skills__wrapper-image">
+              <img
+                src="icons/skills/image.png"
+                alt="image"
+                class="skills__icon"
+              />
+            </div>
+            <p class="skills__subtitle">Retouch</p>
+            <p class="skills__descr">
+              I strive to make photography surpass reality
+            </p>
+          </div>
+          <div class="skills__wrapper-item">
+            <div class="skills__wrapper-image">
+              <img
+                src="icons/skills/mic.png"
+                alt="microphone"
+                class="skills__icon"
+              />
+            </div>
+            <p class="skills__subtitle">Audio</p>
+            <p class="skills__descr">
+              Professional sounds recording for video, advertising, portfolio
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio" id="portfolio">
+        <h2 class="title title_line-size-portfolio">Portfolio</h2>
+        <div class="portfolio__tabs">
+          <button class="button portfolio__tab-item">Winter</button>
+          <button class="button portfolio__tab-item">Spring</button>
+          <button class="button portfolio__tab-item">Summer</button>
+          <button class="button portfolio__tab-item">Autumn</button>
+        </div>
+        <div class="portfolio__items">
+          <img
+            src="images/portfolio/portfolio-img-one.jpg"
+            alt="photo_1"
+            class="portfolio__item-photo"
+          />
+          <img
+            src="images/portfolio/portfolio-img-two.jpg"
+            alt="photo_2"
+            class="portfolio__item-photo"
+          />
+          <img
+            src="images/portfolio/portfolio-img-three.jpg"
+            alt="photo_3"
+            class="portfolio__item-photo"
+          />
+          <img
+            src="images/portfolio/portfolio-img-fhour.jpg"
+            alt="photo_4"
+            class="portfolio__item-photo"
+          />
+          <img
+            src="images/portfolio/portfolio-img-five.jpg"
+            alt="photo_5"
+            class="portfolio__item-photo"
+          />
+          <img
+            src="images/portfolio/portfolio-img-six.jpg"
+            alt="photo_6"
+            class="portfolio__item-photo"
+          />
+        </div>
+      </section>
+
+      <section class="video" id="video">
+        <h2 class="title">Video</h2>
+        <div class="video__wrapper">
+          <video
+            class="video__player"
+            poster="/portfolio/images/video/video-player.jpg"
+          >
+            <source src="#" />
+          </video>
+
+          <img class="video__controls" src="icons/video/Play.svg" alt="play" />
+        </div>
+      </section>
+
+      <section class="price" id="price">
+        <h2 class="title title_line-size-price">Price</h2>
+        <div class="price__wrapper">
+          <div class="price__item">
+            <p class="price__subtitle">Standard</p>
+            <p class="price__money">500 $</p>
+            <p class="price__descr">
+              One location<br />
+              120 photos in color<br />
+              12 photos in retouch<br />
+              Readiness 2-3 weeks<br />
+              Make up, visage
+            </p>
+            <button class="button button_size button_size_m">
+              Order shooting
+            </button>
+          </div>
+          <div class="price__item">
+            <p class="price__subtitle">Premium</p>
+            <p class="price__money">700 $</p>
+            <p class="price__descr">
+              One or two locations<br />
+              200 photos in color<br />
+              20 photos in retouch<br />
+              Readiness 1-2 weeks<br />
+              Make up, visage
+            </p>
+            <button class="button button_size button_size_m">
+              Order shooting
+            </button>
+          </div>
+          <div class="price__item">
+            <p class="price__subtitle">Gold</p>
+            <p class="price__money">1000 $</p>
+            <p class="price__descr">
+              Three locations or more <br />
+              300 photos in color<br />
+              50 photos in retouch<br />
+              Readiness 1 week<br />
+              Make up, visage, hairstyle
+            </p>
+            <button class="button button_size button_size_m">
+              Order shooting
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts" id="contacts">
+        <div class="contacts__wrapper">
+          <h2 class="contacts__title">Contact me</h2>
+          <form class="contacts__form" action="#">
+            <input
+              class="contacts__form-input"
+              type="email"
+              placeholder="E-mail"
+            />
+            <input
+              class="contacts__form-input"
+              type="tel"
+              placeholder="Phone"
+            />
+
+            <textarea
+              class="contacts__form-input contacts__form-input_nosize"
+              name="message"
+              id="message"
+              placeholder="Message"
+            ></textarea>
+            <button class="button button_size button_size_submit">
+              Send message
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__items">
+        <div class="footer__item">
+          <img class="footer__image" src="icons/footer/©.png" alt="copy" />
+        </div>
+        <div class="footer__item">
+          <p class="footer__year">2022</p>
+        </div>
+
+        <a
+          class="footer__link"
+          href="https://github.com/dangor220"
+          target="_blank"
+          >github</a
+        >
+      </div>
+      <div class="footer__items">
+        <div class="footer__item-text">
+          <a
+            class="footer__link"
+            href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part1.md"
+            target="_blank"
+          >
+            Rolling Scopes School
+          </a>
+        </div>
+      </div>
+      <div class="footer__items">
+        <div class="footer__item">
+          <a class="footer__link" href="#"
+            ><img
+              src="icons/footer/inst.svg"
+              alt="instagram"
+              class="footer__svg"
+          /></a>
+        </div>
+        <div class="footer__item">
+          <a class="footer__link" href="#"
+            ><img
+              src="icons/footer/Vector.svg"
+              alt="facebook"
+              class="footer__svg"
+          /></a>
+        </div>
+        <div class="footer__item">
+          <a class="footer__link" href="#"
+            ><img src="icons/footer/tw.png" alt="twitter" class="footer__svg"
+          /></a>
+        </div>
+        <div class="footer__item">
+          <a class="footer__link" href="#"
+            ><img
+              src="icons/footer/pinterest.svg"
+              alt="pinterest"
+              class="footer__svg"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
