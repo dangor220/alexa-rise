@@ -7,15 +7,16 @@
   border: 0;
   box-sizing: border-box;
 
-  background: #000000;
   color: #ffffff;
   font-size: 20px;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
 }
 body {
+  position: relative;
   max-width: 1440px;
   margin: 0 auto;
+  background: #000000;
 }
 
 /* 
@@ -25,6 +26,8 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  position: absolute;
+  width: 100%;
   padding: 17px;
 }
 .header__nav {
@@ -56,4 +59,39 @@ body {
 /* 
   ******* main *******
 */
+
+
+/* 
+  ******* hero *******
+*/
+
+.hero {
+  background: url("../images/bg.jpg") no-repeat center local;
+  min-height: 910px;
+}
+.hero__wrapper {
+  padding-top: 250px;
+  padding-left: 80px;
+  max-width: 550px;
+}
+.hero__wrapper-header {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 120px;
+  margin-bottom: 10px;
+}
+.hero__wrapper-descr {
+  line-height: 40px;
+  margin-bottom: 25px;
+}
+.button_size {
+  padding: 8px 72px;
+  background-color: var(--yellow);
+
+  line-height: 40px;
+  color: #000000;
+
+  cursor: pointer;
+}
 
