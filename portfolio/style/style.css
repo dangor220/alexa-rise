@@ -45,6 +45,7 @@ body {
 .header__list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .header__list-item {
   list-style: none;
@@ -172,7 +173,9 @@ body {
 /* 
   ******* portfolio *******
 */
-
+.portfolio {
+  padding: 0 7px;
+}
 .portfolio__tabs {
   text-align: center;
   margin-bottom: 30px;
@@ -198,6 +201,7 @@ body {
 }
 .portfolio__item-photo {
   margin-top: 25px;
+  max-width: 450px;
 }
 
 /* 
