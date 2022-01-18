@@ -102,8 +102,7 @@ body {
   border: var(--yellow) 1px solid;
 }
 .button_size:hover {
-  color: var(--yellow);
-  background-color: #00000000;
+  color: #fff;
   transition: 0.3s linear;
 }
 
@@ -187,8 +186,7 @@ body {
   transition: 0.3s linear;
 }
 .portfolio__tab-item:hover {
-  background-color: var(--yellow);
-  color: #000000;
+  color: #ffffff;
 }
 .portfolio__items {
   padding: 0 20px 0 20px;
