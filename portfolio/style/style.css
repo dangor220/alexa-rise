@@ -64,6 +64,9 @@ body {
 .header__list-link_bold {
   font-weight: 700;
 }
+.switch_active {
+  color: var(--yellow);
+}
 
 /* 
   ******* main *******
