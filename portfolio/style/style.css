@@ -103,8 +103,7 @@ body {
   border: var(--yellow) 1px solid;
 }
 .button_size:hover {
-  color: var(--yellow);
-  background-color: #00000000;
+  color: #ffffff;
   transition: 0.3s linear;
 }
 
@@ -186,8 +185,7 @@ body {
   transition: 0.3s linear;
 }
 .portfolio__tab-item:hover {
-  background-color: var(--yellow);
-  color: #000000;
+  color: #fff;
 }
 .portfolio__items {
   padding: 0 20px 0 20px;
@@ -431,12 +429,15 @@ body {
   }
   .content__adaptive-menu {
     overflow-x: hidden;
-    position: absolute;
+    position: fixed;
     width: 80%;
     height: 100vh;
-    right: 0;
+    right: -1000px;
     top: 0;
     z-index: 2;
+  }
+  .content__adaptive-menu.open {
+    right: 0;
   }
   .header__list {
     overflow-x: hidden;
