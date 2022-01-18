@@ -13,8 +13,9 @@
       rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cinzel+Decorative&family=Inter:wght@400;700&family=Merriweather:wght@700&family=Quicksand:wght@300;400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style/style.css" />
@@ -29,28 +30,35 @@
         height="50"
       />
       <nav class="header__nav">
-        <ul class="header__list">
-          <li class="header__list-item">
-            <a class="header__list-link" href="#skills">Skills</a>
-          </li>
-          <li class="header__list-item">
-            <a class="header__list-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="header__list-item">
-            <a class="header__list-link" href="#video">Video</a>
-          </li>
-          <li class="header__list-item">
-            <a class="header__list-link" href="#price">Price</a>
-          </li>
-          <li class="header__list-item">
-            <a class="header__list-link" href="#contacts">Contacts</a>
-          </li>
-          <li class="header__list-item">
-            <a class="header__list-link header__list-link_bold" href="#">en</a>
-            <span class="header__list-link_bold">/</span>
-            <a class="header__list-link header__list-link_bold" href="#">ru</a>
-          </li>
-        </ul>
+        <div class="content__adaptive-menu">
+          <ul class="header__list">
+            <li class="header__list-item">
+              <a class="header__list-link" href="#skills">Skills</a>
+            </li>
+            <li class="header__list-item">
+              <a class="header__list-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="header__list-item">
+              <a class="header__list-link" href="#video">Video</a>
+            </li>
+            <li class="header__list-item">
+              <a class="header__list-link" href="#price">Price</a>
+            </li>
+            <li class="header__list-item">
+              <a class="header__list-link" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header__list-item header__list-item_langeuage">
+          <a class="header__list-link header__list-link_bold" href="#">en</a>
+          <span class="header__list-link_bold">/</span>
+          <a class="header__list-link header__list-link_bold" href="#">ru</a>
+        </div>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
       </nav>
     </header>
 
@@ -325,8 +333,7 @@
         </li>
       </ul>
     </footer>
+    <script src="script/hamburger.js"></script>
     <script src="script/script.js"></script>
   </body>
 </html>
-
-
