@@ -169,8 +169,6 @@ body {
 /* 
   ******* portfolio *******
 */
-.portfolio {
-}
 .portfolio__tabs {
   text-align: center;
   margin-bottom: 54px;
@@ -187,6 +185,10 @@ body {
 }
 .portfolio__tab-item:hover {
   color: #ffffff;
+}
+.portfolio__tab-item_active {
+  background-color: var(--yellow);
+  color: #000000;
 }
 .portfolio__items {
   padding: 0 20px 0 20px;
