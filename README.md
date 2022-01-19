@@ -1,2 +1,2 @@
-# dangor220-JSFEPRESCHOOL
-Private repository for @dangor220
+Fixed and adaptive portfolio layout
+
