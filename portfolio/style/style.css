@@ -32,6 +32,7 @@ body {
   padding: 21px;
 }
 .header__logo {
+  cursor: pointer;
   transition: 0.2s linear;
 }
 .header__logo:hover {
@@ -179,7 +180,7 @@ body {
 .portfolio__tab-item {
   background-color: #000000;
   color: var(--yellow);
-  border: var(--yellow) 1px solid;
+  border: var(--yellow) 2px solid;
   min-width: 220px;
   padding-top: 7px;
   padding-bottom: 6px;
@@ -315,8 +316,9 @@ body {
   line-height: 40px;
   color: var(--yellow);
   background-color: #00000080;
-  border: 1px solid var(--yellow);
+  border: 2px solid var(--yellow);
   outline: none;
+  cursor: pointer;
 }
 
 .contacts__form-input::-webkit-input-placeholder {
