@@ -292,6 +292,7 @@ body {
   background: url("../images/contacts/contacts.jpg");
   background-size: auto 700px;
   background-position: center center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: flex-end;
 }
@@ -556,7 +557,6 @@ body {
   */
 
   .contacts {
-    background-repeat: no-repeat;
     background-position: -232px;
     background-size: auto 600px;
   }
