@@ -50,9 +50,9 @@
           </ul>
         </div>
         <div class="header__list-item header__list-item_langeuage">
-          <a class="header__list-link header__list-link_bold switch_active" href="#">en</a>
-          <span class="header__list-link_bold">/</span>
-          <a class="header__list-link header__list-link_bold" href="#">ru</a>
+          <a class="header__list-link_bold switch_active" href="#">en</a>
+          <span class="header__list-link_bold header__list-link_slash">/</span>
+          <a class="header__list-link_bold" href="#">ru</a>
         </div>
         <div class="hamburger">
           <div class="line"></div>
@@ -144,7 +144,9 @@
           <button class="button portfolio__tab-item">Winter</button>
           <button class="button portfolio__tab-item">Spring</button>
           <button class="button portfolio__tab-item">Summer</button>
-          <button class="button portfolio__tab-item portfolio__tab-item_active">Autumn</button>
+          <button class="button portfolio__tab-item portfolio__tab-item_active">
+            Autumn
+          </button>
         </div>
         <div class="portfolio__items">
           <img
@@ -185,9 +187,11 @@
           <h2 class="title">Video</h2>
         </div>
         <div class="video__wrapper">
-          <video class="video__player" poster="images/video/video-player.jpg">
-            <source src="#" />
-          </video>
+          <img
+            class="video__player"
+            src="images/video/video-player.jpg"
+            alt="video"
+          />
           <button class="video__controls">
             <img class="video__images" src="icons/video/Play.svg" alt="play" />
           </button>
@@ -276,10 +280,10 @@
 
     <footer class="footer">
       <div class="footer__items">
-        <div class="footer__item">
+        <div class="footer__item footer__item_mg">
           <img class="footer__image" src="icons/footer/©.png" alt="copy" />
         </div>
-        <div class="footer__item">
+        <div class="footer__item footer__item_mg">
           <p class="footer__year">2022</p>
         </div>
 
