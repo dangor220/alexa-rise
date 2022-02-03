@@ -33,19 +33,35 @@
         <div class="content__adaptive-menu">
           <ul class="header__list">
             <li class="header__list-item">
-              <a class="header__list-link" href="#skills">Skills</a>
+              <a class="header__list-link" href="#skills" data-language="skills"
+                >Skills</a
+              >
             </li>
             <li class="header__list-item">
-              <a class="header__list-link" href="#portfolio">Portfolio</a>
+              <a
+                class="header__list-link"
+                href="#portfolio"
+                data-language="portfolio"
+                >Portfolio</a
+              >
             </li>
             <li class="header__list-item">
-              <a class="header__list-link" href="#video">Video</a>
+              <a class="header__list-link" href="#video" data-language="video"
+                >Video</a
+              >
             </li>
             <li class="header__list-item">
-              <a class="header__list-link" href="#price">Price</a>
+              <a class="header__list-link" href="#price" data-language="price"
+                >Price</a
+              >
             </li>
             <li class="header__list-item">
-              <a class="header__list-link" href="#contacts">Contacts</a>
+              <a
+                class="header__list-link"
+                href="#contacts"
+                data-language="contacts"
+                >Contacts</a
+              >
             </li>
           </ul>
         </div>
@@ -59,24 +75,29 @@
           <div class="line"></div>
           <div class="line"></div>
         </div>
+        <div class="toggle__theme"></div>
       </nav>
     </header>
 
     <main class="main">
       <section class="hero">
         <div class="hero__wrapper">
-          <h1 class="hero__wrapper-header">Alexa Rise</h1>
-          <p class="hero__wrapper-descr">
+          <h1 class="hero__wrapper-header" data-language="hero-title">
+            Alexa Rise
+          </h1>
+          <p class="hero__wrapper-descr" data-language="hero-text">
             Save sincere emotions, romantic feelings and happy moments of life
             together with professional photographer Alexa Rise
           </p>
-          <button class="button button_size">Hire me</button>
+          <button class="button button_size bubbly-button" data-language="hire">
+            Hire me
+          </button>
         </div>
       </section>
 
       <section class="skills" id="skills">
         <div class="title__wrapper">
-          <h2 class="title">Skills</h2>
+          <h2 class="title" data-language="skills">Skills</h2>
         </div>
 
         <div class="skills__wrapper">
@@ -88,8 +109,10 @@
                 class="skills__icon"
               />
             </div>
-            <p class="skills__subtitle">Digital photography</p>
-            <p class="skills__descr">
+            <p class="skills__subtitle" data-language="skill-title-1">
+              Digital photography
+            </p>
+            <p class="skills__descr" data-language="skill-text-1">
               High-quality photos in the studio and on the nature
             </p>
           </div>
@@ -101,8 +124,10 @@
                 class="skills__icon"
               />
             </div>
-            <p class="skills__subtitle">Video shooting</p>
-            <p class="skills__descr">
+            <p class="skills__subtitle" data-language="skill-title-2">
+              Video shooting
+            </p>
+            <p class="skills__descr" data-language="skill-text-2">
               Capture your moments so that they always stay with you
             </p>
           </div>
@@ -114,8 +139,10 @@
                 class="skills__icon"
               />
             </div>
-            <p class="skills__subtitle">Retouch</p>
-            <p class="skills__descr">
+            <p class="skills__subtitle" data-language="skill-title-3">
+              Retouch
+            </p>
+            <p class="skills__descr" data-language="skill-text-3">
               I strive to make photography surpass reality
             </p>
           </div>
@@ -127,8 +154,8 @@
                 class="skills__icon"
               />
             </div>
-            <p class="skills__subtitle">Audio</p>
-            <p class="skills__descr">
+            <p class="skills__subtitle" data-language="skill-title-4">Audio</p>
+            <p class="skills__descr" data-language="skill-text-4">
               Professional sounds recording for video, advertising, portfolio
             </p>
           </div>
@@ -137,45 +164,67 @@
 
       <section class="portfolio" id="portfolio">
         <div class="title__wrapper">
-          <h2 class="title">Portfolio</h2>
+          <h2 class="title" data-language="portfolio">Portfolio</h2>
         </div>
 
         <div class="portfolio__tabs">
-          <button class="button portfolio__tab-item">Winter</button>
-          <button class="button portfolio__tab-item">Spring</button>
-          <button class="button portfolio__tab-item">Summer</button>
-          <button class="button portfolio__tab-item portfolio__tab-item_active">
+          <button
+            class="button portfolio__tab-item bubbly-button"
+            data-weather="winter"
+            data-language="winter"
+          >
+            Winter
+          </button>
+          <button
+            class="button portfolio__tab-item bubbly-button"
+            data-weather="spring"
+            data-language="spring"
+          >
+            Spring
+          </button>
+          <button
+            class="button portfolio__tab-item bubbly-button"
+            data-weather="summer"
+            data-language="summer"
+          >
+            Summer
+          </button>
+          <button
+            class="button portfolio__tab-item bubbly-button portfolio__tab-item_active"
+            data-weather="autumn"
+            data-language="autumn"
+          >
             Autumn
           </button>
         </div>
         <div class="portfolio__items">
           <img
-            src="images/portfolio/portfolio-img-one.jpg"
+            src="images/portfolio/autumn/1.jpg"
             alt="photo_1"
             class="portfolio__item-photo"
           />
           <img
-            src="images/portfolio/portfolio-img-two.jpg"
+            src="images/portfolio/autumn/2.jpg"
             alt="photo_2"
             class="portfolio__item-photo"
           />
           <img
-            src="images/portfolio/portfolio-img-three.jpg"
+            src="images/portfolio/autumn/3.jpg"
             alt="photo_3"
             class="portfolio__item-photo"
           />
           <img
-            src="images/portfolio/portfolio-img-fhour.jpg"
+            src="images/portfolio/autumn/4.jpg"
             alt="photo_4"
             class="portfolio__item-photo"
           />
           <img
-            src="images/portfolio/portfolio-img-five.jpg"
+            src="images/portfolio/autumn/5.jpg"
             alt="photo_5"
             class="portfolio__item-photo"
           />
           <img
-            src="images/portfolio/portfolio-img-six.jpg"
+            src="images/portfolio/autumn/6.jpg"
             alt="photo_6"
             class="portfolio__item-photo"
           />
@@ -184,7 +233,7 @@
 
       <section class="video" id="video">
         <div class="title__wrapper">
-          <h2 class="title">Video</h2>
+          <h2 class="title" data-language="video">Video</h2>
         </div>
         <div class="video__wrapper">
           <img
@@ -200,49 +249,58 @@
 
       <section class="price" id="price">
         <div class="title__wrapper">
-          <h2 class="title">Price</h2>
+          <h2 class="title" data-language="price">Price</h2>
         </div>
 
         <div class="price__wrapper">
           <div class="price__item">
-            <p class="price__subtitle">Standard</p>
+            <p class="price__subtitle" data-language="standard">Standard</p>
             <p class="price__money">500 $</p>
-            <p class="price__descr">
+            <p class="price__descr" data-language="price-description-1">
               One location<br />
               120 photos in color<br />
               12 photos in retouch<br />
               Readiness 2-3 weeks<br />
               Make up, visage
             </p>
-            <button class="button button_size button_size_m">
+            <button
+              class="button button_size button_size_m bubbly-button"
+              data-language="order"
+            >
               Order shooting
             </button>
           </div>
           <div class="price__item">
-            <p class="price__subtitle">Premium</p>
+            <p class="price__subtitle" data-language="premium">Premium</p>
             <p class="price__money">700 $</p>
-            <p class="price__descr">
+            <p class="price__descr" data-language="price-description-2">
               One or two locations<br />
               200 photos in color<br />
               20 photos in retouch<br />
               Readiness 1-2 weeks<br />
               Make up, visage
             </p>
-            <button class="button button_size button_size_m">
+            <button
+              class="button button_size button_size_m bubbly-button"
+              data-language="order"
+            >
               Order shooting
             </button>
           </div>
           <div class="price__item">
-            <p class="price__subtitle">Gold</p>
+            <p class="price__subtitle" data-language="gold">Gold</p>
             <p class="price__money">1000 $</p>
-            <p class="price__descr">
+            <p class="price__descr" data-language="price-description-3">
               Three locations or more <br />
               300 photos in color<br />
               50 photos in retouch<br />
               Readiness 1 week<br />
               Make up, visage, hairstyle
             </p>
-            <button class="button button_size button_size_m">
+            <button
+              class="button button_size button_size_m bubbly-button"
+              data-language="order"
+            >
               Order shooting
             </button>
           </div>
@@ -251,7 +309,7 @@
 
       <section class="contacts" id="contacts">
         <div class="contacts__wrapper">
-          <h2 class="contacts__title">Contact me</h2>
+          <h2 class="contacts__title" data-language="contact-me">Contact me</h2>
           <form class="contacts__form" action="#">
             <input
               class="contacts__form-input"
@@ -270,7 +328,11 @@
               id="message"
               placeholder="Message"
             ></textarea>
-            <button class="button button_size button_size_submit">
+            <button
+              type="submit"
+              class="button button_size button_size_submit bubbly-button"
+              data-language="send-message"
+            >
               Send message
             </button>
           </form>
@@ -337,7 +399,13 @@
         </li>
       </ul>
     </footer>
-    <script src="script/hamburger.js"></script>
+
     <script src="script/script.js"></script>
+    <script src="script/hamburger.js"></script>
+    <script src="script/translete.js"></script>
+    <script src="script/toggle__theme.js"></script>
+    <script src="script/portfolio__toggle.js"></script>
+    <script src="script/button__action.js"></script>
+    <script src="script/localStorage.js"></script>
   </body>
 </html>
