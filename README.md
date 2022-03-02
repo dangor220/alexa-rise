@@ -8,3 +8,9 @@ https://dangor220.github.io/portfolio_rs/portfolio/
 * HTML
 * CSS
 * JS
+
+
+## Implemented:
+
+* Dark/Light theme
+* Switch language
