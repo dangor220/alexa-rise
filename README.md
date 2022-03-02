@@ -14,3 +14,4 @@ https://dangor220.github.io/AlexaRise/portfolio/
 
 * Dark/Light theme
 * Switch language
+* it's work after reload pages (use localStorage)
