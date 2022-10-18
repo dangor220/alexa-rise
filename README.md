@@ -1,6 +1,6 @@
 Fixed and adaptive portfolio layout
 
-https://dangor220.github.io/AlexaRise/portfolio/
+https://dangor220.github.io/alexa-rise/portfolio/
 
 
 ## Used technologies:
