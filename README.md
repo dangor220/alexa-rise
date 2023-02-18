@@ -1,6 +1,7 @@
-Fixed and adaptive portfolio layout
+# Single-page site Alexa Rise
 
-https://dangor220.github.io/alexa-rise/portfolio/
+## Deploy:
+## https://dangor220.github.io/alexa-rise/portfolio/
 
 
 ## Used technologies:
